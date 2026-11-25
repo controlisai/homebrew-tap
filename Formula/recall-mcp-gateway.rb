@@ -11,28 +11,28 @@
 class RecallMcpGateway < Formula
   desc "MCP tool monitoring & governance gateway for AI agents"
   homepage "https://github.com/controlisai/recall-mcp-gateway"
-  version "1.0.0-beta.4"
+  version "1.0.0-beta.5"
   license "AGPL-3.0-only"
 
   on_macos do
     on_arm do
-      url "https://github.com/controlisai/recall-mcp-gateway/releases/download/v1.0.0-beta.4/recall-mcp-gateway-darwin-arm64.tar.gz"
-      sha256 "e30e6ed7b678be84ab76e10847116cc2a0edf326b9340c07b01e6c109c49413f"
+      url "https://github.com/controlisai/recall-mcp-gateway/releases/download/v1.0.0-beta.5/recall-mcp-gateway-darwin-arm64.tar.gz"
+      sha256 "77cc59cda31025a500570d1092293328b476bdd940e37fde70136a4437987384"
     end
     on_intel do
-      url "https://github.com/controlisai/recall-mcp-gateway/releases/download/v1.0.0-beta.4/recall-mcp-gateway-darwin-amd64.tar.gz"
-      sha256 "c7d17ef960694280e60d13a38fd7447b0bd2056d7aa3ae4665bf164753d1be39"
+      url "https://github.com/controlisai/recall-mcp-gateway/releases/download/v1.0.0-beta.5/recall-mcp-gateway-darwin-amd64.tar.gz"
+      sha256 "39a29d0dd9eb5e24f48a181d23c111431b3402279fcd0c58d3effb14942d6a59"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/controlisai/recall-mcp-gateway/releases/download/v1.0.0-beta.4/recall-mcp-gateway-linux-arm64.tar.gz"
-      sha256 "f80495b818245a9d2e7efe80b8834cd24428d15f85c2bddebf0d7fe599c5c7df"
+      url "https://github.com/controlisai/recall-mcp-gateway/releases/download/v1.0.0-beta.5/recall-mcp-gateway-linux-arm64.tar.gz"
+      sha256 "c7ecd5392fa041826e9658e37e562019348638b655bceec00fee8fc4b666a866"
     end
     on_intel do
-      url "https://github.com/controlisai/recall-mcp-gateway/releases/download/v1.0.0-beta.4/recall-mcp-gateway-linux-amd64.tar.gz"
-      sha256 "a7165f8d39c5e8fd90f314eb23c0ed430c9fb2e0a3d108225e78d0ee1243f9aa"
+      url "https://github.com/controlisai/recall-mcp-gateway/releases/download/v1.0.0-beta.5/recall-mcp-gateway-linux-amd64.tar.gz"
+      sha256 "101639f835b70866a82f1926cf020abda2c0de1f7f8cfa10959d8975f19e1229"
     end
   end
 

@@ -11,28 +11,28 @@
 class RecallMcpGateway < Formula
   desc "MCP tool monitoring & governance gateway for AI agents"
   homepage "https://github.com/controlisai/recall-mcp-gateway"
-  version "1.0.0-beta.2"
+  version "1.0.0-beta.4"
   license "AGPL-3.0-only"
 
   on_macos do
     on_arm do
-      url "https://github.com/controlisai/recall-mcp-gateway/releases/download/v1.0.0-beta.2/recall-mcp-gateway-darwin-arm64.tar.gz"
-      sha256 "8357605d81eef8c75b3caec35a805480a92c570311d86631c08dde6a671d2620"
+      url "https://github.com/controlisai/recall-mcp-gateway/releases/download/v1.0.0-beta.4/recall-mcp-gateway-darwin-arm64.tar.gz"
+      sha256 "e30e6ed7b678be84ab76e10847116cc2a0edf326b9340c07b01e6c109c49413f"
     end
     on_intel do
-      url "https://github.com/controlisai/recall-mcp-gateway/releases/download/v1.0.0-beta.2/recall-mcp-gateway-darwin-amd64.tar.gz"
-      sha256 "d0d95cd3b6edd7cc60fa494cb49cefdf687885b8e961d00281ecfec53d7c0aa1"
+      url "https://github.com/controlisai/recall-mcp-gateway/releases/download/v1.0.0-beta.4/recall-mcp-gateway-darwin-amd64.tar.gz"
+      sha256 "c7d17ef960694280e60d13a38fd7447b0bd2056d7aa3ae4665bf164753d1be39"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/controlisai/recall-mcp-gateway/releases/download/v1.0.0-beta.2/recall-mcp-gateway-linux-arm64.tar.gz"
-      sha256 "5041b496593da1b1ce63f4ed970ca726c026d5f4f909807c40947ecd8bebb22e"
+      url "https://github.com/controlisai/recall-mcp-gateway/releases/download/v1.0.0-beta.4/recall-mcp-gateway-linux-arm64.tar.gz"
+      sha256 "f80495b818245a9d2e7efe80b8834cd24428d15f85c2bddebf0d7fe599c5c7df"
     end
     on_intel do
-      url "https://github.com/controlisai/recall-mcp-gateway/releases/download/v1.0.0-beta.2/recall-mcp-gateway-linux-amd64.tar.gz"
-      sha256 "53bf775517f95399033ff6bfa19b7208bcf16711506078155a8107bd2bfa0965"
+      url "https://github.com/controlisai/recall-mcp-gateway/releases/download/v1.0.0-beta.4/recall-mcp-gateway-linux-amd64.tar.gz"
+      sha256 "a7165f8d39c5e8fd90f314eb23c0ed430c9fb2e0a3d108225e78d0ee1243f9aa"
     end
   end
 
